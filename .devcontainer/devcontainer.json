@@ -1,0 +1,24 @@
+{
+  "name": "Go Sample",
+  "dockerFile": "Dockerfile",
+  "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+  "forwardPorts": [9000],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "go.gopath": "/go",
+    "go.inferGopath": true,
+    "go.useLanguageServer": true
+  },
+  "extensions": [
+    "ms-vscode.go",
+    "usernamehw.errorlens",
+    "mkxml.vscode-filesize",
+    "eamodio.gitlens",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "shardulm94.trailing-spaces",
+    "mosapride.zenkaku",
+    "gizak.shortcuts",
+  ],
+  "remoteUser": "vscode"
+}

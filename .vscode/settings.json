@@ -1,0 +1,24 @@
+{
+  "go.useLanguageServer": true,
+  "go.inferGopath": false,
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatTool": "goreturns",
+  "go.formatFlags": [
+    "-w"
+  ],
+  "go.lintTool": "golint",
+  "go.lintOnSave": "package",
+  "editor.renderControlCharacters": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "files.encoding": "utf8"
+  },
+  "[json]": {
+    "files.encoding": "utf8",
+  }
+}
