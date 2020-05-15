@@ -8,6 +8,8 @@ require (
 	github.com/go-openapi/spec v0.19.8 // indirect
 	github.com/go-openapi/swag v0.19.9 // indirect
 	github.com/mailru/easyjson v0.7.1 // indirect
+	github.com/swaggo/files v0.0.0-20190704085106-630677cd5c14
+	github.com/swaggo/gin-swagger v1.2.0
 	github.com/swaggo/swag v1.6.5 // indirect
 	github.com/urfave/cli v1.22.4 // indirect
 	golang.org/x/net v0.0.0-20200513185701-a91f0712d120 // indirect

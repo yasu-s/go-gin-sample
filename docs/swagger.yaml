@@ -1,0 +1,18 @@
+basePath: /api/v1
+host: localhost:8080
+info:
+  contact: {}
+  description: APIサンプルです
+  license: {}
+  title: Sample API
+  version: "1.0"
+paths:
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: APIサンプルです
+      produces:
+      - application/json
+      summary: API test
+swagger: "2.0"
