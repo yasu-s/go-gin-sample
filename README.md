@@ -1,17 +1,26 @@
 # go-gin-sample
 
-# 概要
+## Overview
 
-Go + Gin Sample
+Go + Gin + Swag Sample
 
-# Usage
+## Usage
+
+### Go run
+
+```bash
+go build
+go run main.go
+```
+
+### swag
 
 ```bash
 go build
 swag init
-go run main.go
 ```
 
-# URL
+## URL
+
 - https://github.com/gin-gonic/gin
 - https://github.com/swaggo/swag

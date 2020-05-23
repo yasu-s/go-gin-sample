@@ -2,6 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	swaggerFiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 // @title Sample API
@@ -23,5 +25,10 @@ func main() {
 			"message": "pong",
 		})
 	})
+
+	r.Static("/docs", "./docs")
+	url := ginSwagger.URL("http://localhost:8080/docs/swagger.json")
+	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
+
 	r.Run()
 }

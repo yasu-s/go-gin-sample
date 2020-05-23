@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "ms-vscode.go",
+    "ms-vscode-remote.remote-containers"
+  ]
+}
